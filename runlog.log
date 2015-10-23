@@ -1,0 +1,3006 @@
+Added file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
+1404 KB/s (4314 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testPullupMenu:
+
+junit.framework.AssertionFailedError: Method "testPullupMenu" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Method "testPullupMenu" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 0.073
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16267, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+842 KB/s (4314 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in testPullupMenu:
+
+junit.framework.AssertionFailedError: Method "testPullupMenu" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Method "testPullupMenu" not found
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:249)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 0.087
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16358, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+840 KB/s (4302 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.237
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16428, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+600 KB/s (4303 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.941
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16468, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+700 KB/s (4304 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.406
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16543, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+840 KB/s (4305 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.942
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16616, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+700 KB/s (4303 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.241
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16659, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+841 KB/s (4306 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.86
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16729, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+840 KB/s (4304 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.598
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16784, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1051 KB/s (4305 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.248
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16917, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2101 KB/s (4304 bytes in 0.002s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.944
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=16968, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+845 KB/s (4328 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+1080
+
+1776
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.948
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17338, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+826 KB/s (4230 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.075
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17500, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+826 KB/s (4230 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.071
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17553, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1377 KB/s (4231 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.461
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17613, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1377 KB/s (4232 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.253
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17679, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1376 KB/s (4231 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.249
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17729, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+826 KB/s (4232 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.598
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17775, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2065 KB/s (4231 bytes in 0.002s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.944
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17821, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+826 KB/s (4232 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.387
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17935, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+688 KB/s (4233 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.582
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=17984, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+826 KB/s (4232 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.168
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=18044, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+125 KB/s (4232 bytes in 0.033s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.036
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=18176, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+688 KB/s (4233 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.995
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=18506, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+688 KB/s (4232 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.269
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=19329, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1397 KB/s (4294 bytes in 0.003s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 3.308
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=19514, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+698 KB/s (4294 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.249
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=19581, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+2051 KB/s (4201 bytes in 0.002s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.581
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=19642, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+820 KB/s (4202 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.623
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=19775, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+820 KB/s (4202 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.622
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=19818, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
+Updated file D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+Buildfile: D:\software\test\workspace\Uiautomator-Java\PullupMenu\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\software\test\adt-bundle-windows-x86-20131030\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for PullupMenu...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\software\test\workspace\Uiautomator-Java\PullupMenu\bin\PullupMenu.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+728 KB/s (4477 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.ramos.PullupMenu:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testPullupMenu
+
+INSTRUMENTATION_STATUS: class=com.ramos.PullupMenu
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.348
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+
+INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=20101, uid=2000, (need uid=1000) is not allowed to send as package android
+
+INSTRUMENTATION_CODE: 0
+
